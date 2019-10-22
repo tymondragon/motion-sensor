@@ -1,0 +1,28 @@
+{
+  "name": "motion-sensor",
+  "version": "1.0.0",
+  "description": "small kano app to play with motion sensor",
+  "scripts": {
+    "test": "NODE_ENV=test nyc -x app.js -x test/test_helper.js -x  '**/**.test.js' mocha --opts test/mocha.opts --recursive './{,!(node_modules)/**}/*.test.js' --exit"
+  },
+  "main": "app.js",
+  "repository": "git@github.com:tymondragon/motion-sensor.git",
+  "author": "Ty Mondragon <tymondragon@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "community-sdk": "KanoComputing/community-sdk#nodejs",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nodemon": "^1.19.4",
+    "mocha": "^6.2.2",
+    "nock": "^11.4.0",
+    "sinon": "^7.5.0",
+    "sinon-chai": "^3.3.0",
+    "supertest": "^4.0.2"
+  }
+}
