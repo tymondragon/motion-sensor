@@ -14,6 +14,8 @@
     "body-parser": "^1.19.0",
     "community-sdk": "KanoComputing/community-sdk#nodejs",
     "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "moment-timer": "^1.3.0",
     "morgan": "^1.9.1"
   },
   "devDependencies": {
